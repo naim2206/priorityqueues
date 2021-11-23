@@ -3,4 +3,4 @@ project(priorityQueues C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(priorityQueues main.c heap.c heap.h)
+add_executable(priorityQueues main.c heap.c heap.h PriorityQueue.c PriorityQueue.h)
